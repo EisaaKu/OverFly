@@ -1,0 +1,786 @@
+.titre{
+	color:red;
+	text-align: center;
+	font-size:30px;
+	border:inset red 5px;
+	width: 460px;
+	margin: auto;
+	border-radius: 20px;
+	/*height: 500px;
+	text-align: center;
+	line-height:500px;
+
+	background-color:black;
+	background-image:
+ 					url('sukuna.jpg'),
+	                url('ita.jpg');
+	               
+	background-position:
+					top left bottom,
+					center;				
+	background-repeat:
+					repeat-y, 
+					no-repeat;
+
+	background-size: 
+					auto,
+					cover;
+
+	background-attachment: fixed; */
+}
+.rdm{
+	 color:white;
+	 font-size: 25px;
+	 border:solid white 3px;
+	 text-align: center;
+	 border-radius: 40px;
+	 line-height: 30px;
+	 width: 800px;
+	 margin: auto;
+} 
+.coca{
+     font-size: 23px;
+     color:white;
+     text-align: center;
+     border:solid white 3px;
+     border-radius: 40px;
+     border-color:white;
+     width: 600px;
+	 margin: auto;      
+}
+.pif{
+     font-size: 23px;
+     color:white;
+     text-align: center;
+     border:solid white 3px;
+     border-radius: 40px;
+	 line-height: 30px;
+	 border-color: white;
+	 width: 640px;
+	 margin: auto;      
+}
+.lien{
+	color: gray;
+	font-size:25px;
+	text-align: center;
+	text-decoration: none;
+}
+body{
+	/*background-image:url(lanterne.jpg);*/
+	background-color:#222222;
+}
+.h5{
+	color:transparent;
+	height: 600px;
+	text-align: center;
+	line-height:600px;
+	font-size:30px;
+
+	background-color:black;
+	background-image:
+	                url('averfight.jpg');
+	               
+	background-position:
+					center;				
+	background-repeat:
+					no-repeat;
+
+	background-size: 
+					cover;
+
+	background-attachment: none;
+}
+.visite{
+	color:red;
+	font-size: 30px;
+	text-align: center;
+	text-decoration: underline;
+}
+.img{
+	color:white;
+	height: 300px;
+	text-align: center;
+	line-height:300px;
+	font-size:30px;
+}
+	
+	/*background-color:white;
+	background-image:
+	                url('overflys.jpg');
+	               
+	background-position:
+					center;				
+	background-repeat:
+					no-repeat;
+
+	background-size: 
+					cover;
+
+	background-attachment: none;*/
+}
+
+.h3 table{
+	border-collapse: collapse;
+	margin: 50px auto;
+}
+.h3 table tr td{
+	border: solid 3px;
+	widows: 200px;
+	text-align: center;
+	height: 40px;
+}
+.h3 table tr th{
+	color: red;
+	border: solid 3px;
+}
+.tableau{
+	color: white;
+	border: solid 3px;
+	margin: 50px auto;
+}
+.chef{
+	font-size: 28px;
+}
+.membre{
+	font-size: 30px;
+	color:red;
+	text-align: center;
+	text-decoration: underline;
+}
+.screen{
+	 font-size: 23px;
+     color:white;
+     text-align: center;
+     border:solid white 3px;
+     border-radius: 40px;
+     border-color:white;
+     width: 600px;
+	 margin: auto;
+}
+.screen1{
+	font-size: 25px;
+	color:red;
+	text-align: left;
+	text-decoration: underline;
+}
+.screen2{
+	font-size: 25px;
+	color:red;
+	text-align: left;
+	text-decoration: underline;
+}
+.screen3{
+	font-size: 25px;
+	color:red;
+	text-align: left;
+	text-decoration: underline;
+}
+.titre2{
+	color:red;
+	text-align: center;
+	font-size:30px;
+	border:inset red 5px;
+	width: 400px;
+	margin: auto;
+	border-radius: 20px;
+	text-decoration: none;
+}
+.deuxieme{
+/*  background-color:black;
+	background-image:
+	                url('lanterne.jpg');
+	               
+	background-position:
+					top;				
+	background-repeat:
+					no-repeat;
+
+	background-size: 
+					cover;
+
+	background-attachment: none;*/
+}
+.lignescreen{
+	font-size: 25px;
+	color:gray;
+	text-align: left;
+	text-decoration: underline;
+}	
+.melon{
+	font-size: 25px;
+	color:gray;
+	text-align: right;
+	text-decoration: underline;
+	float:right;
+}
+.cactus{
+	font-size: 25px;
+	color:gray;
+	text-align: left;
+	text-decoration: underline;
+}
+.grospvp{
+	font-size: 25px;
+	color:gray;
+	text-align: right;
+	text-decoration: underline;
+	float: right;
+}
+.invincible{
+	font-size: 25px;
+	color:gray;
+	text-align: right;
+	text-decoration: underline;
+	float: right;
+}
+.bk{
+	font-size: 25px;
+	color:gray;
+	text-align: right;
+	text-decoration: underline;
+	float:right;
+}
+.rotation90 {
+	transition-duration: 0.4s;
+	transition-property: transform;
+}
+.rotation90:hover{
+	transform: rotate(360deg);
+}
+/*Reset CSS*/
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Avenir, sans-serif;
+}
+nav{
+    width: 100%;
+    margin: 0 auto;
+    background-color: black;
+    position: sticky;
+    top: 0px;
+}
+.conteneur-nav{
+    position: absolute;
+    width: 100%;
+}
+nav input[type=checkbox]{
+    display: none;
+}
+nav label{
+    display: inline-block;
+    width: 100%;
+    padding: 10px 0px;
+    text-align: center;
+    background-color: black;
+}
+nav ul{
+    display: none;
+    list-style-type: none;
+    background-color: black;
+}
+nav input[type=checkbox]:checked + ul{
+    display: flex;
+    flex-flow : column wrap;
+}
+nav ul li{
+    flex: 1 1 auto;
+    text-align: center;
+}
+nav > div > ul > li > a{
+    color: red;
+}
+nav a{
+    display: block;
+    text-decoration: none;
+    color: black;
+    padding: 10px 0px;
+}
+.sous{
+    display: flex;
+    flex-flow: column wrap;
+    z-index: 1000;
+}
+
+.sous li{
+    flex: 1 1 auto;
+    text-align: left;
+}
+.sous a{
+    padding: 10px;
+    background-color: black;
+}
+
+@media screen and (min-width: 980px){
+    .conteneur-nav{
+        position: static;
+    }
+    nav label, nav input{
+        display: none;
+    }
+    nav input[type=checkbox]:checked + ul, nav ul{
+        display: flex;
+        flex-flow: row wrap;
+        background-color: red;
+    }
+    nav ul li{
+        position: relative;
+    }
+    nav > div > ul > li > a{
+        color: black;
+    }
+    nav a{
+        border-bottom: 2px solid transparent;
+    }
+    nav a:hover{
+        color: red;
+        border-bottom: 2px solid red;
+    }
+    .sous{
+        display: none;
+        box-shadow: 0px 1px 2px black;
+        background-color: black;
+        position: absolute;
+        width: 100%;
+    }
+    nav > div > ul li:hover .sous{
+        display: flex;
+        flex-flow: column wrap;
+    }
+    .sous a{
+        border-bottom: none;
+        background-color: red;
+    }
+    .sous a:hover{
+        border-bottom: none;
+        background-color: #222222;
+    }
+    .deroulant > a::after{
+        content:"▼";
+        font-size: 12px;
+    }
+}
+
+.conteneur-contenu{
+  margin: 50px 20px;
+  height: 1500px;
+}
+.toute:hover{
+	color: black;
+}
+
+.tableau {
+    
+    animation: fadein 5s;
+    -webkit-animation: fadein 5s; /* Safari et Chrome */
+}
+
+
+*{
+  margin:0;
+  padding:0;
+}
+
+.container{  padding-top: 2px;
+  padding-bottom: 2px;}
+/*body{
+  background-color: black;
+}*/
+
+.background-img{
+  background-image: url("averfight.jpg");
+  height: 400px;
+  width: 950px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 5% auto;
+  padding:30px;
+  border: 1px solid red;
+  border-radius: 4px;
+  box-shadow: 0px 0px 5px red;
+  position: relative;
+}
+
+.content h1{ 
+	font-size:40px;
+}
+
+.content1{
+	color: pink;
+}
+
+.box{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 300px;
+  height: 300px;
+  background: #50000056;
+  box-sizing: border-box;
+  overflow: hidden;
+  box-shadow: 0 20px 50px red;
+  border: 2px solid red;
+  color: red;
+  padding: 20px;
+}
+
+.box:before{
+  content: '';
+  position:absolute;
+  top:0;
+  left:-100%;
+  width:100%;
+  height:100%;
+  background: rgba(255,255,255,0.1);
+  transition:0.5s;
+  pointer-events: none;
+}
+
+.box:hover:before{
+  left:-50%;
+  transform: skewX(-5deg);
+}
+
+
+.box .content{
+  position:absolute;
+  top:15px;
+  left:15px;
+  right:15px;
+  bottom:15px;
+  border:1px solid red;
+  padding:20px;
+  text-align:center;
+  box-shadow: 0 5px 10px red;
+}
+
+.box span{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: block;
+  box-sizing: border-box;
+  
+}
+
+.box span:nth-child(1)
+{
+  transform:rotate(0deg);
+}
+
+.box span:nth-child(2)
+{
+  transform:rotate(90deg);
+}
+
+.box span:nth-child(3)
+{
+  transform:rotate(180deg);
+}
+
+.box span:nth-child(4)
+{
+  transform:rotate(270deg);
+}
+
+.box span:before
+{
+  content: '';
+  position: absolute;
+  width:100%;
+  height: 2px;
+  background: red;
+  animation: animate 4s linear infinite;
+}
+
+@keyframes animate {
+  0% {
+  transform:scaleX(0);
+  transform-origin: left;
+  }
+  50%
+  {
+    transform:scaleX(1);
+  transform-origin: left;
+  }
+  50.1%
+  {
+    transform:scaleX(1);
+  transform-origin: right;
+    
+  }
+  
+  100%
+  {
+    transform:scaleX(0);
+  transform-origin: right;
+    
+  } 
+} 
+/*body{
+  height: 1vh;
+  margin: 0;
+  padding: 0;
+  background: #3b3646;
+}*/
+
+
+
+*{
+  box-sizing: border-box;
+}
+
+.centerBox{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 450px
+}
+
+.categoryWrapper{
+  height: 310px;
+  width: 460px;
+  background: url("http://ohlookawebsite.com/bathroomtestfull.jpg") no-repeat center center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.categoryWrapper:after{
+  position: absolute;
+  top:0;
+  left: 0;
+  right:0;
+  bottom: 0;
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#a29ca9+0,95909b+99 */
+background: #a29ca9; /* Old browsers */
+background: -moz-linear-gradient(-45deg, #a29ca9 0%, #95909b 99%); /* FF3.6-15 */
+background: -webkit-linear-gradient(-45deg, #a29ca9 0%,#95909b 99%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(135deg, #a29ca9 0%,#95909b 99%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a29ca9', endColorstr='#95909b',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+  content: '';
+  opacity: 0;
+    -webkit-transition: opacity 0.9s ease 0s; 
+}
+
+.categoryWrapper:hover:after{
+  opacity: 0.4;
+}
+
+.categoryWrapper h1{
+  color:red;
+  font-size: 40px;
+  letter-spacing: 2px;
+  -webkit-transition: all 0.15s ease 0s; 
+  position: relative;
+  z-index: 10;
+}
+
+.categoryWrapper:hover h1{
+  transform: translateY(-10px);
+}
+
+.categoryWrapper button{
+  position: absolute;
+  transform: translatey(60px);
+  -webkit-appearance: none;
+  border: none;
+  background: none;
+  color:red;
+  width: 250px;
+  height:50px;
+  font-size: 20px;
+  padding: 0;
+  margin: 0;
+  outline: none;
+  z-index: 10;
+}
+
+.categoryWrapper button span{
+  display: block;
+  position: relative;
+  line-height: 50px;
+  height: 50px;
+  cursor: pointer;
+}
+
+.categoryWrapper button > span:after{
+  content:'';
+  position: absolute;
+  top:0;
+  left: 50%;
+  width: 20px;
+  height: 0;
+  
+  border: 1px solid red;
+  border-left: none;
+  border-bottom: none;
+  
+      transition: height 0.15s ease-out, width 0.15s ease-out 0.15s;
+}
+
+.categoryWrapper:hover button > span:after{
+  width: calc(50% - 1px);
+  height: calc(100% - 2px);
+  transition: width 0.15s ease-out, height 0.15s ease-out 0.15s;
+}
+
+.categoryWrapper button > span:before{
+  content:'';
+  position: absolute;
+  top:0;
+  right: 50%;
+  width: 20px;
+  height: 0;
+  
+  border: 1px solid red;
+  border-right: none;
+  border-bottom: none;
+  
+      transition: height 0.15s ease-out, width 0.15s ease-out 0.15s;
+}
+
+.categoryWrapper:hover button > span:before{
+  width: calc(50% - 1px);
+  height: calc(100% - 2px);
+  transition: width 0.15s ease-out, height 0.15s ease-out 0.15s;
+}
+
+.categoryWrapper button > span > span:before{
+  content:'';
+  position: absolute;
+  bottom:0;
+  right: 0%;
+  width: 1px;
+  height: 1px;
+  opacity: 0;
+  
+}
+
+.categoryWrapper:hover button > span > span:before{
+  opacity: 1;
+  border-bottom: 1px solid red;
+  width: calc(100%);
+  height: 1px;
+  transition: opacity 0s ease-out 0.29s, width 0.15s ease-out 0.3s;
+}
+
+.categoryWrapper button > span > span:after{
+  content:'';
+  position: absolute;
+  bottom:0;
+  left: 0%;
+  width: 1px;
+  height: 1px;
+  opacity: 0;
+  
+}
+
+.categoryWrapper:hover button > span > span:after{
+  opacity: 1;
+  border-bottom: 1px solid red;
+  width: calc(100%);
+  height: 1px;
+  transition: opacity 0s ease-out 0.29s, width 0.15s ease-out 0.3s;
+}
+
+.categoryWrapper button > span > span > span{
+  transition: color 0.15s ease-out 0.3s;
+  color: transparent;
+}
+
+.categoryWrapper:hover button > span > span > span{
+  color:red;
+}
+
+.categoryWrapper button > span > span > span:after{
+  position: absolute;
+  top:0;left:0;right:0;bottom:0;
+  color:#1f2e4d;
+  content: attr(data-attr-span);
+  width: 0%;
+  height: 100%;
+  background:red;
+  white-space: nowrap;
+  text-align: center;
+  margin: auto;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  transition: width 0.5s;
+}
+
+.categoryWrapper button:hover > span > span > span:after{
+  width: 100%;
+}
+
+/*html, body {
+  background: rgb(20,20,20);
+  text-align: center;
+  height: 100%;
+  overflow: hidden;
+  margin: 0;
+}*/
+
+.svg-wrapper {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  margin: 0 auto;
+  width: 500px;
+}
+.shape1,
+.shape2 {
+  stroke-dasharray: 1120;
+  stroke-width: 5px;
+  fill: transparent;
+  stroke: red;
+  border-bottom: 5px solid red;
+  transition-timing-function: linear;
+  transition: stroke-dashoffset 4s, stroke-dasharray 4s;
+}
+.shape1 {
+  stroke-dashoffset: 1120;
+}
+.shape2 {
+  stroke-dashoffset: -1120;
+}
+.text {
+  font-family: 'Roboto Condensed';
+  font-size: 26px;
+  line-height: 32px;
+  letter-spacing: 8px;
+  color: red;
+  top: -48px;
+  position: relative;
+  margin-left: 40px;
+}
+.svg-wrapper:hover .shape1,
+.svg-wrapper:hover .shape2 {
+  stroke-dashoffset: 0;
+  stroke-dasharray: 1120;
+}
+
+.alertPulse-css {
+    animation: alertPulse 2s ease-out;
+    animation-iteration-count: infinite;
+    opacity: 1;
+    background: #303030;
+}
+
+.banner {
+  font-family: system-ui;
+  margin: 1rem;
+  border-radius: 100px;
+  font-size: 2.2rem;
+  color: red;
+  text-align: center;
+  padding: 1rem 3rem;
+  width: 650px;
+  margin-left: 350px;
+  text-decoration: underline;
+}

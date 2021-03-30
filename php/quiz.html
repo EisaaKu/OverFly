@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+  <title>Test-Recrutement-OverFly</title>
+  <link rel="stylesheet" type="text/css" href="quizStyle.css">
+</head>
+  <link class="logo" rel="icon" type="image/ico" href="logo.ico"> <link rel="shortcut icon" type="image/x-icon"/>
+<body class="body">
+   <section>
+    
+     <form action="" method="post">
+         
+          <fieldset class="Question">
+           <form method="post" action="traitement.php">
+            
+            <legend class="legend">Pourquoi voulez vous rejoindre notre faction ?</legend>
+            
+            <p class="reponse">Répondre ici :</p>
+           
+            <textarea name="réponse" id="réponse" rows="15"  
+            cols="100" placeholder="Nous voulons une réponse construite et sans fautes."></textarea>
+           
+            </form>
+          </fieldset>
+                               
+        <br><br><br>
+        
+          <fieldset class="Question">
+            
+           
+            <legend class="legend">Combien de fois jouez-vous en moyenne par jour ? </legend>
+           
+            <input type="radio" name="radio" id="radio" class="Rep1"> 
+            
+            <label for="radio">1 heure.</label>
+            
+          <div style="margin-left: 25em; margin-top: -18px;"> 
+            <input type="radio" name="radio" id="radio" class="Rep2">            
+            <label for="radio">Entre 2 et 5 heures.</label>
+          </div>
+           
+            <br><br><br>
+           
+            <input type="radio" name="radio" id="radio" class="Rep3"> 
+            
+            <label for="radio">Entre 6 et 9 heures.</label>
+            
+          <div style="margin-left: 25em; margin-top: -18px;">
+            <input type="radio" name="radio" id="radio" class="Rep2"> 
+            <label for="radio">10 heures ou plus.</label>
+          </div>
+         
+          </fieldset>
+          <br><br><br>
+          <fieldset class="Question">
+            <legend class="legend">Possèdez-vous des spawners, si oui, combien et de quel type ? </legend>
+                <p>
+                   
+                      <div>
+                      <option value="zombie">Zombie</option>
+                      <div style="margin-left: 25em; margin-top: -18px;">
+                        <input type="number" id="number" min="0" max="50" value="0"/>
+                      </div></div>
+                      
+                      <br>
+                     
+                      <option value="pig-zombie">Pig-zombie</option>
+                      <div style="margin-left: 25em; margin-top: -18px;">
+                        <input type="number" id="number" min="0" max="50" value="0"/>
+                      </div>
+                     
+                      <br>
+                     
+                      <option value="squelette">Squelette</option>
+                      <div style="margin-left: 25em; margin-top: -18px;">
+                        <input type="number" id="number" min="0" max="50" value="0"/>
+                      </div>
+                     
+                      <br>
+                     
+                      <option value="arraignée">Arraignée</option>
+                      <div style="margin-left: 25em; margin-top: -18px;">
+                        <input type="number" id="number" min="0" max="50" value="0"/>
+                      </div>
+                     
+                      <br>
+                     
+                      <option value="golem">Golem</option>
+                      <div style="margin-left: 25em; margin-top: -18px;">
+                        <input type="number" id="number" min="0" max="50" value="0"/>
+                      </div>
+                      
+                      <br>
+                     
+                      <option value="vache">Vache</option>
+                      <div style="margin-left: 25em; margin-top: -18px;">
+                        <input type="number" id="number" min="0" max="50" value="0"/>
+                      </div>
+                    
+                      <br>
+
+                      <option value="cochon">Cochon</option>
+                      <div style="margin-left: 25em; margin-top: -18px;">
+                        <input type="number" id="number" min="0" max="50" value="0"/>
+                      </div>
+
+                    
+              </p>
+              
+              
+          </fieldset> 
+          <br><br><br>
+          
+          <fieldset class="Question">
+          <legend class="legend">Votre grade ? </legend>
+          <p>
+                
+                 <label for="Grade">Quel grade détenez-vous ?</label>
+                        <br/><br>
+                    
+                    <select name="Grade" id="Grade">
+                      <option value="dieu">Dieu</option>
+                      <option value="empereur">Empereur</option>
+                      <option value="seigneur">Seigneur</option>
+                      <option value="chevalier">Chevalier</option>                      
+                    </select>
+               
+                </p>
+          </fieldset>
+         
+          <br><br><br>
+         
+          <fieldset class="Question">
+            <legend class="legend">Quel kit détenez-vous ?</legend>
+            <p>
+  
+                 <label for="Kits">Cochez le ou les Kit(s) que vous possédez :</label>
+                       <br/><br>
+                   
+
+                     <p>
+                          
+                          <input type="checkbox" name="xp" id="xp" class="checkbox" /> <label for="xp">Xp</label><br/>
+                          
+                        <div style="margin-left: 7em; margin-top: -34px;">
+                          <input type="checkbox" name="construction" id="construction" /> <label for="construction">Construction</label><br/>
+                        </div>
+                          
+                         <div style="margin-left: 15em; margin-top: -19px;">
+                          <input type="checkbox" name="explorateur" id="explorateur" /> <label for="explorateur">Explorateur</label><br/>
+                         </div>
+                          
+                         <div style="margin-left: 23em; margin-top: -19px;">
+                          <input type="checkbox" name="farmeur" id="farmeur" /> <label for="farmeur">Farmeur</label>
+                         </div> 
+
+                         <br><br>
+
+                          <input type="checkbox" name="alchimiste" id="alchimiste" /> <label for="alchimiste">Alchimiste</label>
+                                  
+                         <div style="margin-left: 7em; margin-top: -17px;">
+                          <input type="checkbox" name="potions" id="potions" /> <label for="potions">Potions</label>
+                         </div>
+                        
+                         <div style="margin-left: 15em; margin-top: -17px;">
+                          <input type="checkbox" name="destruction" id="destruction" /> <label for="destruction">Destruction</label>
+                         </div>
+                       
+                         <div style="margin-left: 23em; margin-top: -17px;">
+                          <input type="checkbox" name="minerais" id="minerais" /> <label for="minerais">Minerais</label>
+                         </div>
+
+                         <div style="margin-left: 30em; margin-top: -48px;">
+                          <input type="checkbox" name="aucun" id="aucun" /> <label for="aucun">Aucun</label>
+                         </div>
+                          
+                    </p>
+                   
+                    </select>          
+                  
+                  <br>
+
+            </p>
+
+          </fieldset>
+         
+          <br><br><br>            
+         
+          <input type="submit" value="Valider mes réponses" style="text-align: center;" />
+</form>
+
+</form>
+</body>
+</html>
